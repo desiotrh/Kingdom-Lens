@@ -49,10 +49,10 @@ export default function Pricing() {
         <section className="px-40 py-20">
           <div className="max-w-[960px] mx-auto text-center">
             <h1 className="text-white text-5xl font-black leading-tight tracking-[-0.033em] mb-6">
-              Simple, Transparent <span className="text-[#b7c6e0]">Pricing</span>
+              📸 <span className="text-[#b7c6e0]">Kingdom Lens</span> Pricing
             </h1>
             <p className="text-white text-xl font-normal leading-normal max-w-3xl mx-auto mb-12">
-              Choose the perfect plan for your Kingdom-focused creative journey. Start free, upgrade when you're ready.
+              Professional photography tools for Kingdom-focused creators. Start free, upgrade when you're ready.
             </p>
           </div>
         </section>
@@ -66,28 +66,40 @@ export default function Pricing() {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-white mb-2">Free</h3>
                   <div className="text-4xl font-bold text-[#b7c6e0] mb-2">$0</div>
-                  <p className="text-white text-sm">Forever</p>
+                  <p className="text-white text-sm">per month</p>
                 </div>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Up to 5 projects
+                    10 photo edits per month
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Basic photo editing
+                    Standard photo templates
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Community access
+                    Basic AI photo enhancement
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Basic templates
+                    Community support
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    1GB storage
+                    2GB storage
+                  </li>
+                  <li className="flex items-center text-gray-400">
+                    <span className="text-gray-500 mr-3">✗</span>
+                    No advanced editing
+                  </li>
+                  <li className="flex items-center text-gray-400">
+                    <span className="text-gray-500 mr-3">✗</span>
+                    No custom branding
+                  </li>
+                  <li className="flex items-center text-gray-400">
+                    <span className="text-gray-500 mr-3">✗</span>
+                    No professional tools
                   </li>
                 </ul>
                 <Link href="/register" className="w-full block text-center px-6 py-3 bg-[#2d2f34] text-white text-sm font-bold rounded-lg hover:bg-[#2d2f34]/90 transition-all duration-200">
@@ -102,37 +114,61 @@ export default function Pricing() {
                 </div>
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-white mb-2">Pro</h3>
-                  <div className="text-4xl font-bold text-[#b7c6e0] mb-2">$19</div>
+                  <div className="text-4xl font-bold text-[#b7c6e0] mb-2">$29</div>
                   <p className="text-white text-sm">per month</p>
                 </div>
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Unlimited projects
+                    Everything in Free
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Advanced photo editing
+                    Unlimited photo edits
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    AI-powered enhancements
+                    Premium photo templates
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Premium templates
+                    Advanced AI photo enhancement
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    50GB storage
+                    Professional editing tools
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Analytics dashboard
+                    Custom branding
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    Advanced photo effects
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
                     Priority support
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    100GB storage
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    Multiple export formats
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    Photo analytics
+                  </li>
+                  <li className="flex items-center text-gray-400">
+                    <span className="text-gray-500 mr-3">✗</span>
+                    No team collaboration
+                  </li>
+                  <li className="flex items-center text-gray-400">
+                    <span className="text-gray-500 mr-3">✗</span>
+                    No white-label options
                   </li>
                 </ul>
                 <Link href="/register" className="w-full block text-center px-6 py-3 bg-[#b7c6e0] text-[#131416] text-sm font-bold rounded-lg hover:bg-[#b7c6e0]/90 transition-all duration-200">
@@ -144,7 +180,7 @@ export default function Pricing() {
               <div className="bg-[#131416]/30 border border-[#2d2f34] rounded-xl p-8 hover:bg-[#131416]/50 hover:border-[#b7c6e0]/50 transition-all duration-300">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-white mb-2">Enterprise</h3>
-                  <div className="text-4xl font-bold text-[#b7c6e0] mb-2">$49</div>
+                  <div className="text-4xl font-bold text-[#b7c6e0] mb-2">$99</div>
                   <p className="text-white text-sm">per month</p>
                 </div>
                 <ul className="space-y-4 mb-8">
@@ -154,27 +190,39 @@ export default function Pricing() {
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Team collaboration
+                    Team collaboration (up to 10 photographers)
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Custom branding
+                    White-label photography platform
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Advanced analytics
+                    Custom photo integrations
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    500GB storage
+                    Advanced photo analytics
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    Dedicated support
+                    Dedicated photography specialist
                   </li>
                   <li className="flex items-center text-white">
                     <span className="text-[#b7c6e0] mr-3">✓</span>
-                    API access
+                    1TB storage
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    API access for photo processing
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    Custom photo workflows
+                  </li>
+                  <li className="flex items-center text-white">
+                    <span className="text-[#b7c6e0] mr-3">✓</span>
+                    Advanced security features
                   </li>
                 </ul>
                 <Link href="/register" className="w-full block text-center px-6 py-3 bg-[#2d2f34] text-white text-sm font-bold rounded-lg hover:bg-[#2d2f34]/90 transition-all duration-200">
@@ -185,8 +233,37 @@ export default function Pricing() {
           </div>
         </section>
 
-        {/* FAQ Section */}
+        {/* Special Offers */}
         <section className="px-40 py-20 bg-[#131416]/50">
+          <div className="max-w-[960px] mx-auto">
+            <h2 className="text-white text-3xl font-black leading-tight tracking-[-0.033em] mb-12 text-center">
+              🎁 Special Offers
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-[#131416]/30 border border-[#2d2f34] rounded-xl p-6">
+                <h3 className="text-xl font-bold text-white mb-4">New User Discount</h3>
+                <p className="text-white mb-4">50% off first 3 months</p>
+                <ul className="text-white text-sm space-y-2">
+                  <li>• Available for all Pro and Enterprise plans</li>
+                  <li>• No setup fees</li>
+                  <li>• Easy cancellation</li>
+                </ul>
+              </div>
+              <div className="bg-[#131416]/30 border border-[#2d2f34] rounded-xl p-6">
+                <h3 className="text-xl font-bold text-white mb-4">Annual Billing</h3>
+                <p className="text-white mb-4">Save 20% with annual plans</p>
+                <ul className="text-white text-sm space-y-2">
+                  <li>• 20% discount on all plans</li>
+                  <li>• Better value for long-term users</li>
+                  <li>• Annual commitment required</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="px-40 py-20">
           <div className="max-w-[960px] mx-auto">
             <h2 className="text-white text-3xl font-black leading-tight tracking-[-0.033em] mb-12 text-center">
               Frequently Asked Questions
@@ -213,7 +290,7 @@ export default function Pricing() {
         </section>
 
         {/* CTA Section */}
-        <section className="px-40 py-20">
+        <section className="px-40 py-20 bg-[#131416]/50">
           <div className="max-w-[960px] mx-auto text-center">
             <h2 className="text-white text-4xl font-black leading-tight tracking-[-0.033em] mb-6">
               Ready to Start Creating?
